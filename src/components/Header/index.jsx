@@ -1,4 +1,5 @@
 'use client'
+
 import { motion } from 'framer-motion'
 import { links } from '~/src/lib/data'
 import Link from 'next/link'
