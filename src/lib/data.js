@@ -45,10 +45,22 @@ export const experiencesData = [
 
 export const projectsData = [
     {
-        title: '',
-        description: '',
-        tags: [],
-        imageUrl: ''
+        title: 'CorpComment',
+        description: 'I worked as a full-stack developer.',
+        tags: ['React', 'Next.js', 'Framer motion', 'Tailwind', 'Java'],
+        imageUrl: corpcommentImg
+    },
+    {
+        title: 'rmtDev',
+        description: 'I interned at DXC for a period of 7 months.',
+        tags: ['Java', 'Spring boot', 'HTML', 'CSS', 'JS', 'DXC Framework'],
+        imageUrl: rmtdevImg
+    },
+    {
+        title: 'Word Analytics',
+        description: 'I have created an encryption application with Java Swing.',
+        tags: ['Java', 'Swing', 'Intellij theme'],
+        imageUrl: wordanalyticsImg
     }
 ]
 
