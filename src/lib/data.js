@@ -2,9 +2,10 @@ import React from 'react'
 import { CgWorkAlt } from 'react-icons/cg'
 import { FaReact } from 'react-icons/fa'
 import { LuGraduationCap } from 'react-icons/lu'
-import corpcommentImg from '~/public/corpcomment.png'
-import rmtdevImg from '~/public/rmtdev.png'
-import wordanalyticsImg from '~/public/wordanalytics.png'
+import nextImg from '~/public/nextportfolio.png'
+import dataImg from '~/public/data.png'
+import dxcImg from '~/public/dxc.png'
+import organicaImg from '~/public/organica.jpeg'
 
 export const links = [
     {
@@ -45,22 +46,28 @@ export const experiencesData = [
 
 export const projectsData = [
     {
-        title: 'CorpComment',
-        description: 'I worked as a full-stack developer.',
-        tags: ['React', 'Next.js', 'Framer motion', 'Tailwind', 'Java'],
-        imageUrl: corpcommentImg
+        title: 'Next portfolio',
+        description: 'I build my portfolio with Nextjs',
+        tags: ['React', 'Nextjs', 'Framer motion', 'Tailwind', '...'],
+        imageUrl: nextImg
     },
     {
-        title: 'rmtDev',
-        description: 'I interned at DXC for a period of 7 months.',
-        tags: ['Java', 'Spring boot', 'HTML', 'CSS', 'JS', 'DXC Framework'],
-        imageUrl: rmtdevImg
+        title: 'DXC framework',
+        description: 'I interned at DXC for a period of 7 months and work with framework',
+        tags: ['Java', 'Spring boot', 'HTML', 'CSS', 'JS', 'DXC Framework', '...'],
+        imageUrl: dxcImg
     },
     {
-        title: 'Word Analytics',
+        title: 'Data Encryption',
         description: 'I have created an encryption application with Java Swing.',
-        tags: ['Java', 'Swing', 'Intellij theme'],
-        imageUrl: wordanalyticsImg
+        tags: ['Java', 'Swing', 'Intellij theme', 'Bouncy castle', '...'],
+        imageUrl: dataImg
+    },
+    {
+        title: 'Organica website clone',
+        description: 'I worked as a full-stack developer.',
+        tags: ['Angular', 'Java', '...'],
+        imageUrl: organicaImg
     }
 ]
 
