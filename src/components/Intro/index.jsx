@@ -3,15 +3,16 @@
 import { motion } from 'framer-motion'
 import Image from 'next/image'
 import Link from 'next/link'
-import React from 'react'
 import { IoIosCall } from 'react-icons/io'
 import { GrDocumentDownload } from 'react-icons/gr'
 import { FaSquareFacebook } from 'react-icons/fa6'
 import { FaSquareGithub } from 'react-icons/fa6'
+import { useSectionInView } from '~/src/lib/hooks'
 
 function Intro() {
+    const { ref } = useSectionInView('Home', 0.5)
     return (
-        <section className="mb-28 max-w-[50rem] text-center sm:mb-0 scroll-mt-[100rem]">
+        <section ref={ref} className="mb-28 max-w-[50rem] text-center sm:mb-0 mt-28 sm:mt-36">
             <div className="flex items-center justify-center">
                 <div className="relative">
                     <motion.div
@@ -26,7 +27,7 @@ function Intro() {
                             height={192}
                             quality={100}
                             priority={true}
-                            className="h-24 w-24 rounded-full object-cover border-[0.35rem] border-white shadow-xl"
+                            className="h-36 w-36 rounded-full object-cover border-[0.35rem] border-white shadow-xl"
                         />
                     </motion.div>
 
@@ -38,8 +39,8 @@ function Intro() {
                         <Image
                             src="/icon-verify.png"
                             alt="verified"
-                            width={36}
-                            height={36}
+                            width={52}
+                            height={52}
                             quality={100}
                             priority={true}
                             className="absolute bottom-0 right-0"
