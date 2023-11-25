@@ -82,7 +82,7 @@ export const skillsData = [
     'Git',
     'Tailwind',
     'Java',
-    'Spring-Boot',
+    'Spring boot',
     'MongoDB',
     'Redux',
     'Framer Motion'

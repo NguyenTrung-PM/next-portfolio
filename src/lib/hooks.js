@@ -3,9 +3,7 @@ import { useInView } from 'react-intersection-observer'
 import { useActiveSectionContext } from '~/src/context/active-section-context'
 
 export function useSectionInView(sectionName, threshold = 0.75) {
-    const { ref, inView } = useInView({
-        threshold
-    })
+    const { ref, inView } = useInView({ threshold })
     const { setActiveSection, timeOfLastClick } = useActiveSectionContext()
 
     useEffect(() => {
