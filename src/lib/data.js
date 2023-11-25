@@ -36,11 +36,25 @@ export const links = [
 
 export const experiencesData = [
     {
-        title: '',
-        location: '',
-        description: '',
-        icon: React.createElement(),
-        date: ''
+        title: 'Learning at HCMUAF University',
+        location: 'Ho Chi Minh City',
+        description: 'I hold a degree with distinction from Ho Chi Minh University of Agriculture and Forestry.',
+        icon: React.createElement(LuGraduationCap),
+        date: '2018 - 2022'
+    },
+    {
+        title: 'Intern at DXC VietNam',
+        location: 'Ho Chi Minh City',
+        description: 'Internship 7-month at DXC VietNam.',
+        icon: React.createElement(CgWorkAlt),
+        date: '03/2023 - 10/2023'
+    },
+    {
+        title: 'Update new Skill for new work',
+        location: 'Long Khanh City',
+        description: 'Currently, I am working from home to learn additional skills for my new job.',
+        icon: React.createElement(FaReact),
+        date: '11/2023'
     }
 ]
 
