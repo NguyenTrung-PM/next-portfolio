@@ -78,21 +78,21 @@ function Intro() {
                     Contact me <IoIosCall className="opacity-70 group-hover:translate-x-1 transition" />
                 </Link>
                 <a
-                    className="group bg-white text-gray-700 justify-center px-7 py-3 flex items-center gap-2 rounded-full outline-none hover:scale-105 active:scale-100 transition cursor-pointer border border-black/10"
+                    className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10"
                     href="/CV.pdf"
                     download
                 >
                     Download CV <GrDocumentDownload className="opacity-70 group-hover:translate-x-1 transition" />
                 </a>
                 <a
-                    className="bg-white p-4 text-gray-700 flex items-center justify-center gap-2 sm:w-[3.25rem] h-[3.25rem] rounded-full hover:scale-105 hover:text-gray-900 active:scale-100 transition cursor-pointer border border-black/10"
+                    className="bg-white p-4 text-gray-700 flex items-center justify-center gap-2 sm:w-[3.25rem] h-[3.25rem] rounded-full hover:scale-105 hover:text-gray-900 active:scale-100 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
                     href="https://www.facebook.com/profile.php?id=100011667645177"
                     target="_blank"
                 >
                     <FaSquareFacebook />
                 </a>
                 <a
-                    className="bg-white p-4 text-gray-700 flex items-center justify-center gap-2 sm:w-[3.25rem] h-[3.25rem] rounded-full hover:scale-105 hover:text-gray-900 active:scale-100 transition cursor-pointer border border-black/10"
+                    className="bg-white p-4 text-gray-700 flex items-center justify-center gap-2 sm:w-[3.25rem] h-[3.25rem] rounded-full hover:scale-105 hover:text-gray-900 active:scale-100 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
                     href="https://github.com/NguyenTrung-PM"
                     target="_blank"
                 >
