@@ -8,9 +8,11 @@ import { GrDocumentDownload } from 'react-icons/gr'
 import { FaSquareFacebook } from 'react-icons/fa6'
 import { FaSquareGithub } from 'react-icons/fa6'
 import { useSectionInView } from '~/src/lib/hooks'
+import { useActiveSectionContext } from '~/src/context/active-section-context'
 
 function Intro() {
     const { ref } = useSectionInView('Home', 0.5)
+    const { setActiveSection, setTimeOfLastClick } = useActiveSectionContext()
     return (
         <section ref={ref} id="home" className="mb-28 max-w-[50rem] text-center sm:mb-0 scroll-mt-[100rem]">
             <div className="flex items-center justify-center">
@@ -68,6 +70,10 @@ function Intro() {
                 <Link
                     href="#contact"
                     className="group bg-gray-900 text-white justify-center px-7 py-3 flex items-center gap-2 rounded-full outline-none hover:scale-105 hover:bg-gray-950 active:scale-100 transition"
+                    onClick={() => {
+                        setActiveSection('Contact')
+                        setTimeOfLastClick(Date.now())
+                    }}
                 >
                     Contact me <IoIosCall className="opacity-70 group-hover:translate-x-1 transition" />
                 </Link>
