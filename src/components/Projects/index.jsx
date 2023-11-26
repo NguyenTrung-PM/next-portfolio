@@ -3,7 +3,7 @@
 import React from 'react'
 import SectionHeading from '~/src/components/SectionHeading'
 import { projectsData } from '~/src/lib/data'
-import Project from './project'
+import Project from '~/src/components/Projects/Project'
 import { useSectionInView } from '~/src/lib/hooks'
 
 function Projects() {
