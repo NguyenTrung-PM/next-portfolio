@@ -4,7 +4,6 @@ import { experimental_useFormStatus as useFormStatus } from 'react-dom'
 
 function SubmitBtn() {
     const { pending } = useFormStatus()
-    console.log(pending)
 
     return (
         <button
